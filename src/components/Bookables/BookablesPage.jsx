@@ -1,9 +1,10 @@
 import React from 'react'
+import BookablesList from './BookablesList'
 
 export default function BookablesPage() {
     return (
-        <div>
-            BookablesPage
-        </div>
+        <main className="bookables-page">
+            <BookablesList />
+        </main>
     )
 }

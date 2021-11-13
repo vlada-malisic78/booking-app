@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function UserPicker() {
     return (
-        <div>
-            UserPicker
-        </div>
+        <select>
+            <option>Users</option>
+        </select>
     )
 }
