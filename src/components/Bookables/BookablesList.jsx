@@ -13,7 +13,7 @@ export default function BookablesList() {
     //     console.log(bookablesIndex)
     // }
     const nextBookable =() =>{
-        setBookableIndex((i=>i+1) % bookablesInGroup.length)
+        setBookableIndex((i=>(i+1) % bookablesInGroup.length))
     }
 
     return (
